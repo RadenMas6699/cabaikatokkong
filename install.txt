@@ -1,0 +1,5 @@
+pip install flask
+pip install tensorflow
+pip install numpy
+pip install opencv-python
+pip install Werkzeug
