@@ -70,4 +70,4 @@ def predict():
         return jsonify({'predicted_class': predicted_class, 'class_percentages': class_percentages})
 
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run(host='0.0.0.0', port=5000)
